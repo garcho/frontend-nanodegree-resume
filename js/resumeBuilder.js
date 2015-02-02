@@ -22,10 +22,9 @@ var bio = {
 			"skills" : skills,
 			"city": "Bogotá"
 
-	}	
+	};	
 
-var work = {
-}
+var work = {};
 
 
 
@@ -35,8 +34,7 @@ work.yearsWored = 10;
 work.cityOfBusiness = "Bogotá"; 
 
 
-var edu = {
-}
+var edu = {}; 
 
 edu["lastSchool"] = "Universidad de los Andes"; 
 edu["yearsAttended"] = 2; 
