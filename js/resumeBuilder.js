@@ -19,14 +19,32 @@ var bio = {
 			"contacts" : {"tel" : "+57.1.21238805", "email" : "garcia@lacasonadelpatio.net"}, 
 			"pictureURL" : "https://cdn4.iconfinder.com/data/icons/avatar-and-user/78/Avatar_person_user_character_man_woman_human-05-128.png",
 			"welcomeMessage" : "Hello", 
-			"skills" : skills
+			"skills" : skills,
+			"city": "Bogotá"
 
 	}	
 
+var work = {
+}
 
 
-	$("#header").append(bio.name);
-	bio.city = "Bogota"; 
+
+work.jobPosition = "Director General";
+work.employer = "Hotel Casona del Patio"; 
+work.yearsWored = 10; 
+work.cityOfBusiness = "Bogotá"; 
+
+var education {
+}
+
+education["lastSchool"] = "Universidad de los Andes"; 
+education["yearsAttended"] = 2; 
+education["cityOfSchool"] = "Bogotá";  
+
+
+$("#header").append(work.jobPosition); 
+$("#header").append(education["lastSchool"]); 
+
 
 	/*
 	
