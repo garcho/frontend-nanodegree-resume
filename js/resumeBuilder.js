@@ -34,16 +34,16 @@ work.employer = "Hotel Casona del Patio";
 work.yearsWored = 10; 
 work.cityOfBusiness = "Bogotá"; 
 
-var education {
+
+var edu = {
 }
 
-education["lastSchool"] = "Universidad de los Andes"; 
-education["yearsAttended"] = 2; 
-education["cityOfSchool"] = "Bogotá";  
+edu["lastSchool"] = "Universidad de los Andes"; 
+edu["yearsAttended"] = 2; 
+edu["cityOfSchool"] = "Bogotá";  
 
 
-$("#header").append(work.jobPosition); 
-$("#header").append(education["lastSchool"]); 
+$("#header").append(edu[work.jobPosition + " " +"lastSchool"]); 
 
 
 	/*
