@@ -43,7 +43,7 @@ edu["yearsAttended"] = 2;
 edu["cityOfSchool"] = "Bogotá";  
 
 
-$("#header").append(edu[work.jobPosition + " " +"lastSchool"]); 
+$("#header").append(work.jobPosition + " " +edu["lastSchool"]); 
 
 
 	/*
